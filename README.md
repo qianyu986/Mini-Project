@@ -1,4 +1,4 @@
-# Mini-Project
+# Mini-Project(Project Group E)
 <div><b>SC1015 - Mini Project</b></div)>
 
 <h3>Suicide-Rate-Prediction</h3>
