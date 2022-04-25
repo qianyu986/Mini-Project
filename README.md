@@ -1,5 +1,5 @@
 # Mini-Project
-<div>SC1015 - Mini Project</div)>
+<div><b>SC1015 - Mini Project</b></div)>
 
 <h3>Suicide-Rate-Prediction</h3>
 
@@ -19,7 +19,7 @@ In view of the limited variables in the first dataset, we looked for the second 
 <div>import seaborn as sb</div>
 <div>import matplotlib.pyplot as plt # we only need pyplot</div>
 <div>sb.set()</div>
-<div><div>from sklearn.linear_model import LinearRegression</div>
+<div>from sklearn.linear_model import LinearRegression</div>
 <div>from sklearn.tree import DecisionTreeClassifier</div>
 <div>from sklearn.model_selection import train_test_split</div>
 <div>from sklearn.metrics import confusion_matrix</div>
@@ -53,39 +53,44 @@ Model use for Machine Learning:
 </div>
 
 <h2>VARIABLES USED TO PREDICT THE SUICIDE RATE</h2>
-<div>
-Converted SUICIDE_NO → SUICIDE_RATE of ‘High’ or ‘Low’ based on Mean
-Categorical Predictor: Sex, Age, Admin Region
-Numerical Predictor: GDP, Population
-</div>
+<div>Converted SUICIDE_NO → SUICIDE_RATE of ‘<b>High</b>’ or ‘<b>Low</b>’ based on <b>Mean</b></div>
+<div>Categorical Predictor: Sex, Age, Admin Region</div>
+<div>Numerical Predictor: GDP, Population</div>
 
 <h2>LINEAR REGRESSION</h2>
 <div>Linear Regression is a machine learning algorithm based on supervised learning. It performs a regression task. Linear regression performs the task to predict a dependent variable value (y) based on a given independent variable (x).
-PERFORMANCE EVALUATION
+</div>
+<h4>PERFORMANCE EVALUATION</h4>
+<div>
 Using Linear Regression getting Accuracy/Score:-
 Accuracy for Train Data Set: 0.3912
 </div>
 
 <h2>DECISION TREE</h2> 
-Using OneHotEncoding to perform task
-PERFORMANCE EVALUATION
-Using Decision Tree getting Accuracy/Score:-
-Accuracy for Train Data Set: 0.9287
-Accuracy for Test Data Set: 0.9278
+<div>Using OneHotEncoding to perform task</div>
+<h4>PERFORMANCE EVALUATION</h4>
+<div>Using Decision Tree getting Accuracy/Score:-</div>
+<li>Accuracy for Train Data Set: 0.9287</li>
+<li>Accuracy for Test Data Set: 0.9278</li>
 
+  
 <h2>RANDOM FOREST</h2>
-PERFORMANCE EVALUATION
-Using Random Forest getting Accuracy/Score:-
-Accuracy for Train Data Set: 0.9204
-Accuracy for Test Data Set: 0.9183
+<h4>PERFORMANCE EVALUATION</h4>
+<div>Using Random Forest getting Accuracy/Score:-</div>
+<li>Accuracy for Train Data Set: 0.9204</li>
+<li>Accuracy for Test Data Set: 0.9183</li>
 
 <h2>GRID SEARCH</h2>
-<PERFORMANCE EVALUATION
-Using Grid Search getting Accuracy/Score:-
-Accuracy for Train Data Set: 0.9697
-Accuracy for Test Data Set: 0.9600
+<h4>PERFORMANCE EVALUATION</h4>
+<div>Using Grid Search getting Accuracy/Score:-</div>
+<li>Accuracy for Train Data Set: 0.9697</li>
+<li>Accuracy for Test Data Set: 0.9600</li>
 
 <h2>CONTRIBUTOR</h2>
-  <li>Jin Fuyi</li>
-  <li>Teng Fanru</li>
-  <li>Ku Qian Yu</li>
+  <li>Jin Fuyi - Data preparation, Linear Regression, Classifcations</li>
+  <li>Teng Fanru - Data preparation, EDA, Linear Regression</li>
+  <li>Ku Qian Yu - Decision Tree, Random Forest, GridSearch</li>
+
+<h2>REFERENCE</h2>
+<li>https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016</li>
+<li>https://www.kaggle.com/datasets/prasertk/homicide-suicide-rate-and-gdp</li>
